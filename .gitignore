@@ -20,3 +20,7 @@
 # Go workspace file
 go.work
 go.work.sum
+
+# Files generated using pprof
+profile*.png
+profile*.svg

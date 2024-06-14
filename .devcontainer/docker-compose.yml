@@ -1,0 +1,14 @@
+services:
+  golang_http_profiling:
+    build: .
+    volumes:
+      - ..:/app
+    env_file:
+      - .env.local
+    networks:
+      - golang_http_profiling_net
+    ports:
+      - "8090:8090"
+networks:
+  golang_http_profiling_net:
+    driver: bridge

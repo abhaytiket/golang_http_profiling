@@ -1,0 +1,21 @@
+{
+    "name": "GOLANG_HTTP_PROFILING",
+    "dockerComposeFile": "docker-compose.yml",
+    "workspaceFolder": "/app",
+    "service": "golang_http_profiling",
+    "customizations": {
+        "vscode": {
+          "settings": {},
+          "extensions": [
+            "golang.Go",
+            "eamodio.gitlens",
+            "GitHub.copilot",
+            "ms-vsliveshare.vsliveshare",
+            "Postman.postman-for-vscode"
+          ]
+        }
+    },
+    "forwardPorts": [8090],
+    "overrideCommand": true,
+    "onCreateCommand": ""
+}
